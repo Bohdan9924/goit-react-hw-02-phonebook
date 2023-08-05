@@ -22,7 +22,7 @@ class ContactList extends Component {
         {contacts.map(({ id, name, number }) => (
           <li key={id}>
             {name}: {number}
-            <button className={css.btnDel} type="button" onClick={() => onDeleteContact(id)}>
+            <button className={css.buttonDel} type="button" onClick={() => onDeleteContact(id)}>
               Delete
             </button>
           </li>

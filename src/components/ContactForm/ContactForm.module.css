@@ -1,0 +1,11 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.contactBtn {
+    margin-top: 15px;
+    width: 100px;
+    border: 1px solid #222226;
+}
